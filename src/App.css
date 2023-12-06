@@ -26,6 +26,7 @@ nav{
 nav ul li {
   display: inline-block;
   padding: 1em;
+  font-size: large;
 }
 
 nav ul li a{
@@ -33,7 +34,7 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-  text-decoration: underline solid #495E57;
+  color: red;
   
 }
 
@@ -72,8 +73,8 @@ nav ul li a:hover{
 /* header section */
 
 .header {
-  background-color: #495e57;
-  padding: 40px 0;
+  background-color: #68706d;
+  padding: 30px 0;
 }
 
 .header section {
@@ -113,9 +114,9 @@ button {
 
 .banner-img{
   position: absolute;
-  right: 13%;
+  right: 5%;
   top: 15%;
-  width: 400px;
+  width: 500px;
 }
 
 .banner-img img {
@@ -131,6 +132,7 @@ form, .comfirm{
 
 .formField{
   padding: 50px 20px;
+  display: flex;
 }
 
 input, label{
@@ -149,8 +151,8 @@ input, label{
 .btnReceive input{
   padding: 12px 16px;
   margin-top: 20px;
-  background: #495e57;
-  color: #fff;
+  background: #F4CE14;
+  color: #070707;
   border: none;
   border-radius: 4px;
 
@@ -189,8 +191,8 @@ input, label{
 
 .menu-items{
   /* height: 400px; */
-  width: 350px;
-  background: #a9c8be;
+  width: 300px;
+  background: #828584;
   border-radius: 8px;
 }
 
