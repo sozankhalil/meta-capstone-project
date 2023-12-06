@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import logo from "../images/Logo .svg";
+import { CiMenuBurger } from "react-icons/ci";
 
 const Nav = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -14,9 +15,7 @@ const Nav = () => {
         <img src={logo} alt="" />
       </a>
       <div className="menu-icon" onClick={toggleMenu}>
-        <div className="bar"></div>
-        <div className="bar"></div>
-        <div className="bar"></div>
+      <CiMenuBurger size={35} style={{ color: 'black' }}  />
       </div>
       <ul className={`nav-links ${menuOpen ? "visible" : ""}`}>
         <li>
